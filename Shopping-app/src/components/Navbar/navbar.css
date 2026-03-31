@@ -1,0 +1,48 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 90px;
+    background-color: #e3e6f3;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top:0;
+    left: 0;
+}
+
+.navbar-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+}
+
+.navbar-menu a {
+    text-decoration: none; /* remove underline */
+    color: black; /* default text color */
+    list-style: none;
+}
+
+.navbar-menu a:visited {
+    color: black; /* keep visited links same color */
+}
+
+.navbar-menu li {
+    color: black;
+    list-style: none;
+    cursor: pointer;
+}
+
+.navbar-menu .active{
+    color: #088178;
+    border-bottom: 1px solid #088178;
+}
+
+ 
